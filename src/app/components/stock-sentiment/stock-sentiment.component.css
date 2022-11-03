@@ -1,0 +1,44 @@
+
+div.monthBlock {
+  float:left;
+  bottom: 10px;
+  min-width: 12em;
+  position: relative;
+  left: 60px;
+}
+
+h3{
+  margin-left: 62px;
+}
+
+button.back { 
+  position: fixed;
+  margin-right: 360px;
+  top: 220px;
+  right: 600px;
+  color: blue;
+}
+
+.gfg-box {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100%;
+  
+}
+
+.box {
+  width: 800px;
+  height: 180px;
+  box-shadow: 0 2px 10px darkgray;
+  font-size: 20px;
+  text-align: left;
+  background-color:white;
+  border: 1px solid white;
+  border-radius: 1rem; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+

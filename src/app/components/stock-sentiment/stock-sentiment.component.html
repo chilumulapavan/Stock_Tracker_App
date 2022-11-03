@@ -1,0 +1,14 @@
+<div class="gfg-box" class="box">
+ <h3>{{(stock$ | async)?.description}} ({{stockSymbol}})</h3>
+    <div>
+      <div *ngFor="let month of (insiderSentiment$ | async)?.data" class="monthBlock">
+        <app-stock-sentiment-monthly [monthlySentiment]="month" ></app-stock-sentiment-monthly>
+      </div>
+    </div>
+<div>
+  <button [routerLink]="'/'" class="btn back" id="backBtn">
+    &lt; Back to list of stocks
+  </button>
+</div>
+
+

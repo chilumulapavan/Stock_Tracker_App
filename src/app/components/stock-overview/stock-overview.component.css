@@ -1,0 +1,36 @@
+button.close {
+  float: right;
+  position: relative;
+  top: 15px;
+  left: -20px;
+  padding: 2px;
+  line-height: 9px;
+  min-width: 10px;
+  color: black;
+  background-color: white;
+}
+
+td.dataCell {
+  min-width: 15em;
+}
+
+div.errorMessage {
+  color: orangered;
+  margin-top:  120px;
+}
+
+h4{
+  top: 13px; 
+  float: left;
+  position: relative;
+  left: 62px;
+}
+
+.btn{
+  color:blue;
+  float: left;
+  position: relative;
+  left: 550px;
+  bottom: 5px;
+}
+  
